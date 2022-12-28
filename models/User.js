@@ -6,12 +6,12 @@ const UserSchema = new Schema(
             type: String,
             unique: true,
             required: true,
-            trimmed: true,
+            trim: true,
         },
         email: {
             type: String,
             required: true,
-            unique: true,
+            unique: true
             // add matching requirement w mongoose
         },
         // follow comment example
@@ -31,7 +31,7 @@ const UserSchema = new Schema(
     {
         toJSON: {
             virtuals: true,
-            gutters: true
+            getters: true
         },
         id: false
     }
