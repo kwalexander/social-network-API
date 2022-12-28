@@ -4,9 +4,8 @@ This application is the backend of a social network, built using NoSQL MongoDB t
 Key features of the application include:
 
 * Backend support for key concepts in a social network: CRUD users, friends, thoughts, reactions
-* Uses Node, Express, MongoDB, Mongoose
+* Uses Node, Express, MongoDB database, Mongoose
 
-The application is hosted on Heroku here: https://still-dusk-67474.herokuapp.com/
 
 ## Video walkthrough
 Video walkthrough demonstrating API functionality via Insomnia here: https://drive.google.com/file/d/1PNj8_QQ3Dd_JimfUd430el-DP9h7EiZ5/view
